@@ -37,7 +37,7 @@ function App() {
         .catch(err => console.log(err))
     }
   
-  }, [coords]), "2000")
+  }, [coords]), "5000")
 
 
   const handleTemp = () => {
